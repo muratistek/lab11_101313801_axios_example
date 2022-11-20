@@ -32,7 +32,52 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  width: 100%;
+  background-color: green;
+  text-align: center;
+}
+
+.header h1 {
+  padding: 20px;
+}
+
+.userItem {
+  width: 100%;
+}
+
+.userItem h3 {
+  margin: auto 0;
+  padding: 10px 0;
+}
+
+.itemHeader {
+  background-color: aquamarine;
+  border-bottom: 3px solid grey;
+}
+
+.userContent {
+  display: flex;
+  background-color: #61dafb;
+}
+
+.userImg {
+  padding: 30px;
+}
+
+.userImg img {
+  border-radius: 50%;
+}
+
+.userImg button {
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: blue;
+  display: block;
 }
